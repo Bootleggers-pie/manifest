@@ -5,7 +5,7 @@
   <project path="art" name="art" groups="pdk" remote="bootleggers" />
   <project path="bionic" name="bionic" groups="pdk" remote="bootleggers" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="bootleggers" />
-  <project path="build/make" name="build" groups="pdk" remote="bootleggers" >
+  <project path="build/make" name="build" groups="pdk" remote="bootleg" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -21,17 +21,17 @@
   <project path="external/google" name="external_google" groups="pdk" remote="bootleggers" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk,tradefed" remote="bootleggers" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="bootleggers" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleg" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleg" />
   <project path="frameworks/bootleggers" name="frameworks_bootleggers" remote="bootleggers" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleg" />
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" groups="pdk" remote="bootleggers" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="bootleggers" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los"/>
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />
-  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleg" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="bootleggers" />
@@ -44,7 +44,7 @@
   <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="bootleggers" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" />
   <project path="packages/apps/ShishuOTA" name="packages_apps_ShishuOTA" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk" remote="bootleggers" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="bootleggers" />
@@ -60,9 +60,9 @@
   <project path="system/extras" name="system_extras" groups="pdk" remote="bootleggers-bff" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
   <project path="system/nfc" name="system_nfc" remote="bootleggers" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleg" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="bootleggers" />
-  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleg" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
 
   <!-- HardWare QCOM -->
